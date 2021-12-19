@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-env
+data:
+  sheetsAPIKey: AIzaSyABcaLhqsLsESTuTHXDUr-ZYjpg-GIAzm0
+  BACKEND_URL: http://192.168.49.2:30001
+  INICIATIVES_DATA_SOURCE_URL: "https://sheets.googleapis.com/v4/spreadsheets/1MGRBDs-Bb2PGdyUkTN92dM5kqQuw5dtOpFHwAV1FQpA/values/'INICIATIVAS'?key=AIzaSyABcaLhqsLsESTuTHXDUr-ZYjpg-GIAzm0"
+  PDI_DATA_SOURCE_URL: "https://sheets.googleapis.com/v4/spreadsheets/1TZWMGvvn6TUmwo8DdWvtkLcbDVqVuif9HKMRPVcb2eo/values/'PDI'?key=AIzaSyABcaLhqsLsESTuTHXDUr-ZYjpg-GIAzm0"
+  SKILLS_DATA_SOURCE_URL: "https://sheets.googleapis.com/v4/spreadsheets/1KCEtrqBQ5qs51_EpBOtX-QYYDIxmesr_GZYIXf7AWmE/values/'COMPETENCIAS'?key=AIzaSyABcaLhqsLsESTuTHXDUr-ZYjpg-GIAzm0"
